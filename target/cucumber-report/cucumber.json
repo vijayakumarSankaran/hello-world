@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-27T15:16:30.261Z",
+        "line": 3,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6515427500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "step.stepDefination.Open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141949700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "step.stepDefination.Enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226652900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Reset the credential",
+            "match": {
+              "location": "step.stepDefination.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "file:Features/Test.feature",
+    "tags": []
+  }
+]
